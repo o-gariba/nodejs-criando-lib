@@ -1,0 +1,30 @@
+{
+  "name": "status-check-via-file",
+  "version": "1.0.0",
+  "description": "find all links inside a .md file and check the status of them all",
+  "type": "module",
+  "main": "./cli.js",
+  "bin": {
+   "<nome-da-lib>": "./cli.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js ./test",
+    "cli": "node cli.js ./arquivos/texto1.md"
+  },
+  "keywords": ["markdown", "url", "jest"],
+  "author": "Pedro Garibaldi Santos",
+  "homepage": "https://github.com/o-gariba",
+  "bugs": {
+    "email": "pedrogaribaldisantos@gmail.com",
+    "whatsapp": "wa.me/5516993797689"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "node-fetch": "^3.2.3"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
